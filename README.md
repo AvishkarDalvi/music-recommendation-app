@@ -1,2 +1,2 @@
-# music-recommendation-app
+# inside-out-emoji
 Created with CodeSandbox

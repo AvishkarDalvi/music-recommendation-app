@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+:root {
+  --light-gray: #d1d5db;
+  --lighter-gray: #e5e7eb;
+}
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  background: var(--light-gray);
+}
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: smaller;
+}
+button {
+  cursor: pointer;
+  background: var(--lighter-gray);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+}
+#listHolder {
+  display: block;
+  text-align: left;
+}
+ul {
+  display: block;
+  padding-inline-start: 0px;
+}
+ul > li {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background: var(--lighter-gray);
+}
+li > div {
+  background: var(--lighter-gray);
+}
