@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; //importing useState
 import "./styles.css";
 const hipHop = [
   { name: "Eminem", rating: "5/5" },
